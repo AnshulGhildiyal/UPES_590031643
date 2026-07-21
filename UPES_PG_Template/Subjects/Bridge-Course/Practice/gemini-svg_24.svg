@@ -1,0 +1,14 @@
+<svg width="600" height="150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bitwise Shift Left -->
+  <text x="300" y="30" fill="#fdcb6e" font-family="sans-serif" font-weight="bold" font-size="16" text-anchor="middle">Left Shift (10 &lt;&lt; 2)</text>
+  
+  <rect x="200" y="50" width="200" height="30" fill="#2d3436" stroke="#636e72" stroke-width="2"/>
+  <text x="300" y="70" fill="white" font-family="monospace" font-size="16" text-anchor="middle">0 0 0 0 1 0 1 0  (10)</text>
+  
+  <path d="M 260 85 L 240 105" stroke="#00cec9" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M 310 85 L 290 105" stroke="#00cec9" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M 360 85 L 340 105" stroke="#00cec9" stroke-width="3" marker-end="url(#arrow)"/>
+  
+  <rect x="200" y="110" width="200" height="30" fill="#2d3436" stroke="#00cec9" stroke-width="2"/>
+  <text x="300" y="130" fill="#00cec9" font-family="monospace" font-size="16" text-anchor="middle">0 0 1 0 1 0 0 0  (40)</text>
+</svg>
