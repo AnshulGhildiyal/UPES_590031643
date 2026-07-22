@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+
+<rect width="1200" height="680" fill="white"></rect>
+
+<!-- Title -->
+
+<text x="600" y="40" text-anchor="middle" font-family="Arial" font-size="30" font-weight="bold">
+Memoization (lru_cache) — Stop Solving the Same Problem Twice
+</text>
+
+<text x="600" y="70" text-anchor="middle" font-family="Arial" font-size="17">
+Without a cache, recursion repeats work. With a cache, every Fibonacci number is computed only once.
+</text>
+
+<!-- LEFT -->
+
+<rect x="40" y="110" width="500" height="480" fill="#FFF4F4" stroke="#D62828" stroke-width="2"></rect>
+
+<text x="290" y="145" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold">
+Without Memoization
+</text>
+
+<!-- Tree -->
+
+<text x="290" y="190" text-anchor="middle" font-family="Courier New" font-size="20">
+fib(5)
+</text>
+
+<line x1="290" y1="200" x2="220" y2="240" stroke="black"></line>
+<line x1="290" y1="200" x2="360" y2="240" stroke="black"></line>
+
+<text x="220" y="260" text-anchor="middle" font-family="Courier New" font-size="18">
+fib(4)
+</text>
+
+<text x="360" y="260" text-anchor="middle" font-family="Courier New" font-size="18">
+fib(3)
+</text>
+
+<line x1="220" y1="270" x2="170" y2="310" stroke="black"></line>
+<line x1="220" y1="270" x2="270" y2="310" stroke="black"></line>
+
+<line x1="360" y1="270" x2="320" y2="310" stroke="black"></line>
+<line x1="360" y1="270" x2="410" y2="310" stroke="black"></line>
+
+<text x="170" y="330" text-anchor="middle" font-family="Courier New" font-size="17">fib(3)</text>
+<text x="270" y="330" text-anchor="middle" font-family="Courier New" font-size="17">fib(2)</text>
+<text x="320" y="330" text-anchor="middle" font-family="Courier New" font-size="17">fib(2)</text>
+<text x="410" y="330" text-anchor="middle" font-family="Courier New" font-size="17">fib(1)</text>
+
+<text x="290" y="430" text-anchor="middle" font-family="Arial" font-size="18" fill="red">
+fib(3) calculated twice
+</text>
+
+<text x="290" y="460" text-anchor="middle" font-family="Arial" font-size="18" fill="red">
+fib(2) calculated twice
+</text>
+
+<text x="290" y="520" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold">
+Lots of repeated work
+</text>
+
+<!-- RIGHT -->
+
+<rect x="660" y="110" width="500" height="480" fill="#F2FFF4" stroke="#2E8B57" stroke-width="2"></rect>
+
+<text x="910" y="145" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold">
+With Memoization (lru_cache)
+</text>
+
+<!-- Cache -->
+
+<rect x="720" y="190" width="380" height="220" fill="#EEF8FF" stroke="#4A6CF7" stroke-width="2"></rect>
+
+<text x="910" y="220" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold">
+Memo Pad (Cache)
+</text>
+
+<text x="760" y="260" font-family="Courier New" font-size="18">
+fib(1) → 1
+</text>
+
+<text x="760" y="295" font-family="Courier New" font-size="18">
+fib(2) → 1
+</text>
+
+<text x="760" y="330" font-family="Courier New" font-size="18">
+fib(3) → 2
+</text>
+
+<text x="760" y="365" font-family="Courier New" font-size="18">
+fib(4) → 3
+</text>
+
+<text x="760" y="400" font-family="Courier New" font-size="18">
+fib(5) → 5
+</text>
+
+<text x="910" y="470" text-anchor="middle" font-family="Arial" font-size="19" fill="green">
+Already solved?
+</text>
+
+<text x="910" y="500" text-anchor="middle" font-family="Arial" font-size="19" fill="green">
+Read from cache instantly
+</text>
+
+<!-- Footer -->
+
+<rect x="90" y="615" width="1020" height="35" fill="#F5F5F5" stroke="#999"></rect>
+
+<text x="600" y="638" text-anchor="middle" font-family="Arial" font-size="15">
+Without cache: O(2^N) • With Memoization: O(N)
+</text>
+
+</svg>

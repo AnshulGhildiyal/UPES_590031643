@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650">
+
+<rect width="1100" height="650" fill="white"></rect>
+
+<!-- Title -->
+
+<text x="550" y="40" text-anchor="middle" font-family="Arial" font-size="30" font-weight="bold">
+Recursive Function Call Stack
+</text>
+
+<text x="550" y="68" text-anchor="middle" font-family="Arial" font-size="16">
+The function first goes DOWN the call stack, then prints while returning UP.
+</text>
+
+<!-- Left -->
+
+<rect x="60" y="110" width="420" height="470" fill="#EEF5FF" stroke="#4A6CF7" stroke-width="2"></rect>
+
+<text x="270" y="145" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold">
+Going Down (Recursive Calls)
+</text>
+
+<text x="110" y="190" font-family="Courier New" font-size="18">print_1_to_n(10)</text>
+<text x="140" y="225" font-family="Courier New" font-size="18">↓ calls 9</text>
+
+<text x="170" y="260" font-family="Courier New" font-size="18">print_1_to_n(9)</text>
+<text x="200" y="295" font-family="Courier New" font-size="18">↓ calls 8</text>
+
+<text x="230" y="330" font-family="Courier New" font-size="18">...</text>
+
+<text x="170" y="390" font-family="Courier New" font-size="18">print_1_to_n(1)</text>
+
+<text x="140" y="445" font-family="Courier New" font-size="18">
+↓
+</text>
+
+<rect x="120" y="470" width="240" height="55" fill="#FFE9E9" stroke="#D62828"></rect>
+
+<text x="240" y="502" text-anchor="middle" font-family="Arial" font-size="18">
+Base Case
+</text>
+
+<text x="240" y="520" text-anchor="middle" font-family="Courier New" font-size="16">
+n == 0 → return
+</text>
+
+<!-- Right -->
+
+<rect x="620" y="110" width="420" height="470" fill="#F0FFF4" stroke="#2E8B57" stroke-width="2"></rect>
+
+<text x="830" y="145" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold">
+Coming Back Up
+</text>
+
+<text x="760" y="190" font-family="Courier New" font-size="18">
+print(1)
+</text>
+
+<text x="760" y="225" font-family="Courier New" font-size="18">
+↑ return
+</text>
+
+<text x="760" y="260" font-family="Courier New" font-size="18">
+print(2)
+</text>
+
+<text x="760" y="295" font-family="Courier New" font-size="18">
+↑ return
+</text>
+
+<text x="760" y="330" font-family="Courier New" font-size="18">
+print(3)
+</text>
+
+<text x="760" y="365" font-family="Courier New" font-size="18">
+...</text>
+
+<text x="760" y="425" font-family="Courier New" font-size="18">
+print(10)
+</text>
+
+<rect x="700" y="470" width="220" height="55" fill="#EAFBF0" stroke="#2E8B57"></rect>
+
+<text x="810" y="503" text-anchor="middle" font-family="Arial" font-size="18">
+Output
+</text>
+
+<text x="810" y="523" text-anchor="middle" font-family="Courier New" font-size="17">
+1 2 3 4 ... 10
+</text>
+
+<!-- Footer -->
+
+<rect x="80" y="605" width="940" height="28" fill="#F5F5F5" stroke="#999999"></rect>
+
+<text x="550" y="624" text-anchor="middle" font-family="Arial" font-size="15">
+Python's default recursion limit is about 1000 calls. Deep recursion can raise RecursionError.
+</text>
+
+</svg>

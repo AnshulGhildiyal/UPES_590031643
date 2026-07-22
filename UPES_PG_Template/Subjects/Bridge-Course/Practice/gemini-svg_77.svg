@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+
+<rect width="1200" height="700" fill="white"></rect>
+
+<!-- ================= TITLE ================= -->
+
+<text x="600" y="45" text-anchor="middle" font-family="Arial" font-size="30" font-weight="bold">
+Python Function Argument Types
+</text>
+
+<text x="600" y="75" text-anchor="middle" font-family="Arial" font-size="17">
+Hackathon Registration Portal Analogy
+</text>
+
+<!-- ====================================================== -->
+<!-- DEFAULT ARGUMENTS -->
+<!-- ====================================================== -->
+
+<rect x="40" y="120" width="340" height="500" fill="#EEF6FF" stroke="#3B82F6" stroke-width="2"></rect>
+
+<text x="210" y="155" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold">
+1. Default Argument
+</text>
+
+<text x="70" y="205" font-family="Arial" font-size="17">
+Registration Form
+</text>
+
+<rect x="70" y="230" width="280" height="45" fill="white" stroke="black"></rect>
+
+<text x="85" y="258" font-family="Courier New" font-size="16">
+Location = Main Campus
+</text>
+
+<text x="70" y="315" font-family="Arial" font-size="16">
+No value given
+</text>
+
+<line x1="210" y1="330" x2="210" y2="365" stroke="black"></line>
+
+<text x="210" y="395" text-anchor="middle" font-family="Arial" font-size="18">
+Uses Default Value
+</text>
+
+<text x="210" y="435" text-anchor="middle" font-family="Courier New" font-size="17">
+message="Welcome"
+</text>
+
+<text x="210" y="500" text-anchor="middle" font-family="Arial" font-size="16">
+Override it only if needed.
+</text>
+
+<!-- ====================================================== -->
+<!-- KEYWORD ARGUMENTS -->
+<!-- ====================================================== -->
+
+<rect x="430" y="120" width="340" height="500" fill="#FFF8E8" stroke="#D97706" stroke-width="2"></rect>
+
+<text x="600" y="155" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold">
+2. Keyword Arguments
+</text>
+
+<text x="460" y="205" font-family="Arial" font-size="17">
+Fields can be filled in any order
+</text>
+
+<rect x="460" y="235" width="120" height="40" fill="white" stroke="black"></rect>
+
+<text x="520" y="262" text-anchor="middle" font-family="Courier New" font-size="16">
+age=20
+</text>
+
+<rect x="620" y="235" width="120" height="40" fill="white" stroke="black"></rect>
+
+<text x="680" y="262" text-anchor="middle" font-family="Courier New" font-size="16">
+name=Ravi
+</text>
+
+<line x1="520" y1="275" x2="520" y2="330" stroke="black"></line>
+<line x1="680" y1="275" x2="680" y2="330" stroke="black"></line>
+
+<text x="600" y="365" text-anchor="middle" font-family="Arial" font-size="18">
+Python matches by name,
+</text>
+
+<text x="600" y="390" text-anchor="middle" font-family="Arial" font-size="18">
+NOT by position.
+</text>
+
+<!-- ====================================================== -->
+<!-- *ARGS -->
+<!-- ====================================================== -->
+
+<rect x="820" y="120" width="340" height="500" fill="#EEFDF3" stroke="#16A34A" stroke-width="2"></rect>
+
+<text x="990" y="155" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold">
+3. Variable Length (*args)
+</text>
+
+<text x="850" y="205" font-family="Arial" font-size="17">
+Hackathon Team Members
+</text>
+
+<rect x="860" y="235" width="70" height="40" fill="#DCFCE7" stroke="black"></rect>
+<text x="895" y="262" text-anchor="middle" font-family="Courier New" font-size="15">
+78
+</text>
+
+<rect x="940" y="235" width="70" height="40" fill="#DCFCE7" stroke="black"></rect>
+<text x="975" y="262" text-anchor="middle" font-family="Courier New" font-size="15">
+85
+</text>
+
+<rect x="1020" y="235" width="70" height="40" fill="#DCFCE7" stroke="black"></rect>
+<text x="1055" y="262" text-anchor="middle" font-family="Courier New" font-size="15">
+90
+</text>
+
+<rect x="900" y="340" width="180" height="90" fill="#F3F4F6" stroke="black"></rect>
+
+<text x="990" y="370" text-anchor="middle" font-family="Arial" font-size="18">
+Tuple Bag
+</text>
+
+<text x="990" y="400" text-anchor="middle" font-family="Courier New" font-size="16">
+(78,85,90,...)
+</text>
+
+<text x="990" y="485" text-anchor="middle" font-family="Arial" font-size="16">
+Collects ANY number
+</text>
+
+<text x="990" y="510" text-anchor="middle" font-family="Arial" font-size="16">
+of arguments.
+</text>
+
+<!-- ====================================================== -->
+
+<rect x="80" y="645" width="1040" height="35" fill="#F3F4F6" stroke="#999"></rect>
+
+<text x="600" y="667" text-anchor="middle" font-family="Arial" font-size="15">
+Default = Uses a fallback value • Keyword = Matches by parameter name • *args = Packs unlimited arguments into one tuple.
+</text>
+
+</svg>

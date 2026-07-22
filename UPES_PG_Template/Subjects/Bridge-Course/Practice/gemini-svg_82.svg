@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+
+<rect width="1200" height="700" fill="white"></rect>
+
+<!-- ===================== TITLE ===================== -->
+
+<text x="600" y="42" text-anchor="middle" font-family="Arial" font-size="30" font-weight="bold">
+Numeric File Aggregation
+</text>
+
+<text x="600" y="70" text-anchor="middle" font-family="Arial" font-size="16">
+Store numbers in a file, read them back, convert them to integers, then calculate useful statistics.
+</text>
+
+<!-- ===================== STEP 1 ===================== -->
+
+<rect x="40" y="110" width="280" height="500" fill="#EEF6FF" stroke="#3B82F6" stroke-width="2"></rect>
+
+<text x="180" y="145" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold">
+Step 1
+</text>
+
+<text x="180" y="175" text-anchor="middle" font-family="Arial" font-size="18">
+Write Numbers
+</text>
+
+<rect x="80" y="210" width="200" height="320" fill="white" stroke="black"></rect>
+
+<text x="105" y="245" font-family="Courier New" font-size="18">45</text>
+<text x="105" y="280" font-family="Courier New" font-size="18">120</text>
+<text x="105" y="315" font-family="Courier New" font-size="18">5</text>
+<text x="105" y="350" font-family="Courier New" font-size="18">300</text>
+<text x="105" y="385" font-family="Courier New" font-size="18">88</text>
+<text x="105" y="420" font-family="Courier New" font-size="18">150</text>
+<text x="105" y="455" font-family="Courier New" font-size="18">99</text>
+
+<text x="180" y="565" text-anchor="middle" font-family="Arial" font-size="16">
+Saved to numbers.txt
+</text>
+
+<!-- Arrow -->
+
+<line x1="320" y1="360" x2="420" y2="360" stroke="black" stroke-width="2"></line>
+
+<!-- ===================== FILE ===================== -->
+
+<rect x="420" y="180" width="360" height="360" fill="#FFF8DC" stroke="#C89B00" stroke-width="2"></rect>
+
+<text x="600" y="215" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold">
+numbers.txt
+</text>
+
+<rect x="500" y="245" width="200" height="220" fill="white" stroke="black"></rect>
+
+<text x="530" y="275" font-family="Courier New" font-size="18">45</text>
+<text x="530" y="305" font-family="Courier New" font-size="18">120</text>
+<text x="530" y="335" font-family="Courier New" font-size="18">5</text>
+<text x="530" y="365" font-family="Courier New" font-size="18">300</text>
+<text x="530" y="395" font-family="Courier New" font-size="18">88</text>
+<text x="530" y="425" font-family="Courier New" font-size="18">150</text>
+
+<text x="600" y="495" text-anchor="middle" font-family="Arial" font-size="15">
+Everything is stored as TEXT
+</text>
+
+<!-- Arrow -->
+
+<line x1="780" y1="360" x2="880" y2="360" stroke="black" stroke-width="2"></line>
+
+<!-- ===================== STEP 2 ===================== -->
+
+<rect x="880" y="110" width="280" height="500" fill="#EEFDF3" stroke="#2E8B57" stroke-width="2"></rect>
+
+<text x="1020" y="145" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold">
+Step 2
+</text>
+
+<text x="1020" y="175" text-anchor="middle" font-family="Arial" font-size="18">
+Read &amp; Convert
+</text>
+
+<rect x="920" y="210" width="200" height="55" fill="#F5F5F5" stroke="black"></rect>
+
+<text x="1020" y="243" text-anchor="middle" font-family="Courier New" font-size="17">
+int("120") → 120
+</text>
+
+<line x1="920" y1="295" x2="1120" y2="295" stroke="#CCCCCC"></line>
+
+<text x="930" y="330" font-family="Arial" font-size="18">
+Maximum
+</text>
+
+<text x="1110" y="330" text-anchor="end" font-family="Courier New" font-size="18">
+300
+</text>
+
+<line x1="920" y1="345" x2="1120" y2="345" stroke="#CCCCCC"></line>
+
+<text x="930" y="380" font-family="Arial" font-size="18">
+Average
+</text>
+
+<text x="1110" y="380" text-anchor="end" font-family="Courier New" font-size="18">
+115.29
+</text>
+
+<line x1="920" y1="395" x2="1120" y2="395" stroke="#CCCCCC"></line>
+
+<text x="930" y="430" font-family="Arial" font-size="18">
+Greater than 100
+</text>
+
+<text x="1110" y="430" text-anchor="end" font-family="Courier New" font-size="18">
+3
+</text>
+
+<text x="1020" y="525" text-anchor="middle" font-family="Arial" font-size="16">
+Personal Trainer Report
+</text>
+
+<!-- ===================== FOOTER ===================== -->
+
+<rect x="80" y="640" width="1040" height="35" fill="#F3F4F6" stroke="#999999"></rect>
+
+<text x="600" y="662" text-anchor="middle" font-family="Arial" font-size="15">
+Files store text. Convert each line back to integers before performing mathematical operations.
+</text>
+
+</svg>

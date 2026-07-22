@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650">
+
+<rect width="1100" height="650" fill="white"></rect>
+
+<!-- Title -->
+<text x="550" y="42" text-anchor="middle" font-family="Arial" font-size="30" font-weight="bold">
+Lambda Function: Max &amp; Min Tuple
+</text>
+
+<text x="550" y="70" text-anchor="middle" font-family="Arial" font-size="16">
+One list enters → Maximum and Minimum are found → Returned together as an immutable tuple.
+</text>
+
+<!-- Input -->
+<rect x="60" y="110" width="980" height="110" fill="#EEF4FF" stroke="#4A6CF7" stroke-width="2"></rect>
+
+<text x="85" y="145" font-family="Arial" font-size="20" font-weight="bold">
+Input List
+</text>
+
+<text x="85" y="185" font-family="Courier New" font-size="22">
+[10, 6, 8, 90, 12, 56]
+</text>
+
+<!-- Arrow -->
+<line x1="550" y1="220" x2="550" y2="270" stroke="black" stroke-width="2"></line>
+
+<!-- Lambda Box -->
+<rect x="320" y="270" width="460" height="130" fill="#FFF8DC" stroke="#C89B00" stroke-width="2"></rect>
+
+<text x="550" y="305" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold">
+Lambda Function
+</text>
+
+<text x="550" y="340" text-anchor="middle" font-family="Courier New" font-size="17">
+(max(values), min(values))
+</text>
+
+<text x="550" y="372" text-anchor="middle" font-family="Arial" font-size="16">
+Find both values in one step
+</text>
+
+<!-- Output Arrow -->
+<line x1="550" y1="400" x2="550" y2="445" stroke="black" stroke-width="2"></line>
+
+<!-- Output -->
+<rect x="250" y="445" width="600" height="120" fill="#F0FFF4" stroke="#2E8B57" stroke-width="2"></rect>
+
+<text x="550" y="480" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold">
+Returned Tuple
+</text>
+
+<text x="550" y="520" text-anchor="middle" font-family="Courier New" font-size="24">
+(90, 6)
+</text>
+
+<text x="550" y="548" text-anchor="middle" font-family="Arial" font-size="16">
+Maximum first • Minimum second
+</text>
+
+<!-- Side Explanation -->
+<rect x="770" y="280" width="220" height="90" fill="#F5F5F5" stroke="#999"></rect>
+
+<text x="880" y="310" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">
+Why a Tuple?
+</text>
+
+<text x="785" y="335" font-family="Arial" font-size="14">
+• Stores related values
+</text>
+
+<text x="785" y="355" font-family="Arial" font-size="14">
+• Immutable
+</text>
+
+<text x="785" y="375" font-family="Arial" font-size="14">
+• Perfect for returning
+</text>
+
+<!-- Footer -->
+<rect x="80" y="595" width="940" height="32" fill="#F5F5F5" stroke="#999"></rect>
+
+<text x="550" y="616" text-anchor="middle" font-family="Arial" font-size="15">
+Lambda creates a compact function that returns both the maximum and minimum as a single tuple.
+</text>
+
+</svg>

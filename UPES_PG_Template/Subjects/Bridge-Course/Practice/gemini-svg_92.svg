@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+
+<rect width="1200" height="760" fill="white"></rect>
+
+<!-- ================= TITLE ================= -->
+
+<text x="600" y="42" text-anchor="middle" font-family="Arial" font-size="30" font-weight="bold">
+Object Methods and Class Aggregation
+</text>
+
+<text x="600" y="72" text-anchor="middle" font-family="Arial" font-size="17">
+Each Student object calculates its own result. The class_average() function combines everyone's scores.
+</text>
+
+<!-- ================= OBJECT 1 ================= -->
+
+<rect x="60" y="130" width="300" height="420" fill="#EEF6FF" stroke="#3B82F6" stroke-width="2"></rect>
+
+<text x="210" y="165" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold">
+Student Object
+</text>
+
+<text x="90" y="215" font-family="Courier New" font-size="17">
+Name : Ray
+</text>
+
+<text x="90" y="245" font-family="Courier New" font-size="17">
+PHY : 78
+</text>
+
+<text x="90" y="275" font-family="Courier New" font-size="17">
+CHEM: 67
+</text>
+
+<text x="90" y="305" font-family="Courier New" font-size="17">
+MATH: 81
+</text>
+
+<line x1="90" y1="325" x2="330" y2="325" stroke="#cccccc"></line>
+
+<text x="90" y="360" font-family="Courier New" font-size="16">
+marks_percentage()
+</text>
+
+<text x="260" y="360" font-family="Courier New" font-size="16">
+75.33%
+</text>
+
+<text x="90" y="400" font-family="Courier New" font-size="16">
+result()
+</text>
+
+<text x="260" y="400" font-family="Courier New" font-size="16">
+PASS
+</text>
+
+<!-- ================= OBJECT 2 ================= -->
+
+<rect x="450" y="130" width="300" height="420" fill="#FFF8DC" stroke="#D97706" stroke-width="2"></rect>
+
+<text x="600" y="165" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold">
+Student Object
+</text>
+
+<text x="480" y="215" font-family="Courier New" font-size="17">
+Name : Kunal
+</text>
+
+<text x="480" y="245" font-family="Courier New" font-size="17">
+PHY : 88
+</text>
+
+<text x="480" y="275" font-family="Courier New" font-size="17">
+CHEM: 92
+</text>
+
+<text x="480" y="305" font-family="Courier New" font-size="17">
+MATH: 85
+</text>
+
+<line x1="480" y1="325" x2="720" y2="325" stroke="#cccccc"></line>
+
+<text x="480" y="360" font-family="Courier New" font-size="16">
+marks_percentage()
+</text>
+
+<text x="650" y="360" font-family="Courier New" font-size="16">
+88.33%
+</text>
+
+<text x="480" y="400" font-family="Courier New" font-size="16">
+result()
+</text>
+
+<text x="650" y="400" font-family="Courier New" font-size="16">
+PASS
+</text>
+
+<!-- ================= OBJECT 3 ================= -->
+
+<rect x="840" y="130" width="300" height="420" fill="#FDF2F8" stroke="#DB2777" stroke-width="2"></rect>
+
+<text x="990" y="165" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold">
+Student Object
+</text>
+
+<text x="870" y="215" font-family="Courier New" font-size="17">
+Name : Meera
+</text>
+
+<text x="870" y="245" font-family="Courier New" font-size="17">
+PHY : 39
+</text>
+
+<text x="870" y="275" font-family="Courier New" font-size="17">
+CHEM: 73
+</text>
+
+<text x="870" y="305" font-family="Courier New" font-size="17">
+MATH: 64
+</text>
+
+<line x1="870" y1="325" x2="1110" y2="325" stroke="#cccccc"></line>
+
+<text x="870" y="360" font-family="Courier New" font-size="16">
+marks_percentage()
+</text>
+
+<text x="1040" y="360" font-family="Courier New" font-size="16">
+58.67%
+</text>
+
+<text x="870" y="400" font-family="Courier New" font-size="16">
+result()
+</text>
+
+<text x="1040" y="400" font-family="Courier New" font-size="16">
+FAIL
+</text>
+
+<!-- ================= ARROWS ================= -->
+
+<line x1="210" y1="550" x2="600" y2="610" stroke="black" stroke-width="2"></line>
+<line x1="600" y1="550" x2="600" y2="610" stroke="black" stroke-width="2"></line>
+<line x1="990" y1="550" x2="600" y2="610" stroke="black" stroke-width="2"></line>
+
+<!-- ================= AGGREGATOR ================= -->
+
+<rect x="360" y="610" width="480" height="100" fill="#EEFDF3" stroke="#16A34A" stroke-width="2"></rect>
+
+<text x="600" y="645" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold">
+class_average(records)
+</text>
+
+<text x="600" y="680" text-anchor="middle" font-family="Courier New" font-size="20">
+(75.33 + 88.33 + 58.67) / 3 = 74.11%
+</text>
+
+<!-- ================= FOOTER ================= -->
+
+<rect x="70" y="730" width="1060" height="22" fill="#F3F4F6" stroke="#999999"></rect>
+
+<text x="600" y="746" text-anchor="middle" font-family="Arial" font-size="14">
+Objects compute their own data using methods. External functions combine multiple objects to produce class-level analytics.
+</text>
+
+</svg>

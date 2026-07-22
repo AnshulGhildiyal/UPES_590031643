@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+
+<rect width="1200" height="700" fill="white"></rect>
+
+<!-- ===================== TITLE ===================== -->
+
+<text x="600" y="45" text-anchor="middle" font-family="Arial" font-size="30" font-weight="bold">
+Reading Data from a File
+</text>
+
+<text x="600" y="75" text-anchor="middle" font-family="Arial" font-size="16">
+Store names permanently in a text file, then read them back to calculate useful information.
+</text>
+
+<!-- ===================== STEP 1 ===================== -->
+
+<rect x="40" y="120" width="300" height="470" fill="#EEF6FF" stroke="#4A6CF7" stroke-width="2"></rect>
+
+<text x="190" y="155" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold">
+Step 1
+</text>
+
+<text x="190" y="185" text-anchor="middle" font-family="Arial" font-size="18">
+Write to File
+</text>
+
+<rect x="80" y="220" width="220" height="260" fill="white" stroke="black"></rect>
+
+<text x="100" y="255" font-family="Courier New" font-size="18">
+Aarav
+</text>
+
+<text x="100" y="290" font-family="Courier New" font-size="18">
+Ishita
+</text>
+
+<text x="100" y="325" font-family="Courier New" font-size="18">
+Rahul
+</text>
+
+<text x="100" y="360" font-family="Courier New" font-size="18">
+Omkar
+</text>
+
+<text x="100" y="395" font-family="Courier New" font-size="18">
+Esha
+</text>
+
+<text x="100" y="430" font-family="Courier New" font-size="18">
+Vivek
+</text>
+
+<text x="190" y="525" text-anchor="middle" font-family="Arial" font-size="16">
+Saved to name.txt
+</text>
+
+<!-- ===================== FILE ===================== -->
+
+<line x1="340" y1="355" x2="430" y2="355" stroke="black" stroke-width="2"></line>
+
+<rect x="430" y="220" width="320" height="270" fill="#FFF8DC" stroke="#C89B00" stroke-width="2"></rect>
+
+<text x="590" y="255" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold">
+name.txt
+</text>
+
+<rect x="500" y="285" width="180" height="150" fill="white" stroke="black"></rect>
+
+<text x="520" y="315" font-family="Courier New" font-size="16">
+Aarav
+</text>
+
+<text x="520" y="340" font-family="Courier New" font-size="16">
+Ishita
+</text>
+
+<text x="520" y="365" font-family="Courier New" font-size="16">
+Rahul
+</text>
+
+<text x="520" y="390" font-family="Courier New" font-size="16">
+Omkar
+</text>
+
+<text x="520" y="415" font-family="Courier New" font-size="16">
+Esha
+</text>
+
+<!-- ===================== STEP 2 ===================== -->
+
+<line x1="750" y1="355" x2="840" y2="355" stroke="black" stroke-width="2"></line>
+
+<rect x="840" y="120" width="320" height="470" fill="#EEFDF3" stroke="#2E8B57" stroke-width="2"></rect>
+
+<text x="1000" y="155" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold">
+Step 2
+</text>
+
+<text x="1000" y="185" text-anchor="middle" font-family="Arial" font-size="18">
+Read &amp; Analyze
+</text>
+
+<text x="875" y="245" font-family="Arial" font-size="18">
+Total Names
+</text>
+
+<text x="1085" y="245" font-family="Courier New" font-size="18">
+6
+</text>
+
+<line x1="870" y1="260" x2="1130" y2="260" stroke="#cccccc"></line>
+
+<text x="875" y="305" font-family="Arial" font-size="18">
+Starts with Vowel
+</text>
+
+<text x="1085" y="305" font-family="Courier New" font-size="18">
+4
+</text>
+
+<line x1="870" y1="320" x2="1130" y2="320" stroke="#cccccc"></line>
+
+<text x="875" y="365" font-family="Arial" font-size="18">
+Longest Name
+</text>
+
+<text x="1085" y="365" font-family="Courier New" font-size="18">
+Ishita
+</text>
+
+<line x1="870" y1="380" x2="1130" y2="380" stroke="#cccccc"></line>
+
+<text x="875" y="445" font-family="Arial" font-size="17">
+The script reads every line,
+</text>
+
+<text x="875" y="470" font-family="Arial" font-size="17">
+then calculates the metrics.
+</text>
+
+<!-- ===================== FOOTER ===================== -->
+
+<rect x="70" y="630" width="1060" height="35" fill="#F3F4F6" stroke="#999999"></rect>
+
+<text x="600" y="653" text-anchor="middle" font-family="Arial" font-size="15">
+Files provide permanent storage. Your program can write data today and read it back tomorrow.
+</text>
+
+</svg>

@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+
+<rect width="1200" height="720" fill="white"></rect>
+
+<!-- Title -->
+<text x="600" y="42" text-anchor="middle" font-family="Arial" font-size="30" font-weight="bold">
+Custom Exceptions
+</text>
+
+<text x="600" y="70" text-anchor="middle" font-family="Arial" font-size="16">
+Instead of one generic error, create specific errors so your program knows exactly how to respond.
+</text>
+
+<!-- Step 1 -->
+<rect x="40" y="120" width="260" height="500" fill="#EEF4FF" stroke="#3B82F6" stroke-width="2"></rect>
+
+<text x="170" y="155" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold">
+Student File
+</text>
+
+<rect x="75" y="210" width="190" height="220" fill="white" stroke="black"></rect>
+
+<text x="95" y="245" font-family="Courier New" font-size="17">
+missing_grades.txt
+</text>
+
+<line x1="95" y1="270" x2="245" y2="270" stroke="#cccccc"></line>
+
+<text x="95" y="305" font-family="Arial" font-size="16">
+Read File
+</text>
+
+<text x="95" y="335" font-family="Arial" font-size="16">
+Validate Records
+</text>
+
+<text x="170" y="505" text-anchor="middle" font-family="Arial" font-size="16">
+Input
+</text>
+
+<!-- Arrow -->
+<line x1="300" y1="370" x2="420" y2="370" stroke="black" stroke-width="2"></line>
+
+<!-- Decision -->
+<rect x="420" y="180" width="360" height="380" fill="#FFF8DC" stroke="#D97706" stroke-width="2"></rect>
+
+<text x="600" y="220" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold">
+Validation Engine
+</text>
+
+<text x="470" y="285" font-family="Arial" font-size="18">
+Is the file empty?
+</text>
+
+<text x="470" y="345" font-family="Arial" font-size="18">
+Is every record valid?
+</text>
+
+<line x1="450" y1="310" x2="750" y2="310" stroke="#dddddd"></line>
+<line x1="450" y1="370" x2="750" y2="370" stroke="#dddddd"></line>
+
+<text x="470" y="440" font-family="Courier New" font-size="17">
+raise EmptyFileError
+</text>
+
+<text x="470" y="495" font-family="Courier New" font-size="17">
+raise InvalidRecordError
+</text>
+
+<!-- Arrow -->
+<line x1="780" y1="370" x2="900" y2="370" stroke="black" stroke-width="2"></line>
+
+<!-- Output -->
+<rect x="900" y="120" width="260" height="500" fill="#EEFDF3" stroke="#16A34A" stroke-width="2"></rect>
+
+<text x="1030" y="155" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold">
+Response
+</text>
+
+<rect x="930" y="210" width="200" height="95" fill="white" stroke="black"></rect>
+
+<text x="1030" y="240" text-anchor="middle" font-family="Courier New" font-size="15">
+EmptyFileError
+</text>
+
+<text x="1030" y="275" text-anchor="middle" font-family="Arial" font-size="15">
+Ask user to
+</text>
+
+<text x="1030" y="295" text-anchor="middle" font-family="Arial" font-size="15">
+upload the file again
+</text>
+
+<rect x="930" y="355" width="200" height="95" fill="white" stroke="black"></rect>
+
+<text x="1030" y="385" text-anchor="middle" font-family="Courier New" font-size="15">
+InvalidRecordError
+</text>
+
+<text x="1030" y="420" text-anchor="middle" font-family="Arial" font-size="15">
+Repair or reject
+</text>
+
+<text x="1030" y="440" text-anchor="middle" font-family="Arial" font-size="15">
+the corrupted record
+</text>
+
+<text x="1030" y="535" text-anchor="middle" font-family="Arial" font-size="16">
+Each error has its own
+</text>
+
+<text x="1030" y="560" text-anchor="middle" font-family="Arial" font-size="16">
+recovery strategy.
+</text>
+
+<!-- Footer -->
+<rect x="80" y="650" width="1040" height="35" fill="#F3F4F6" stroke="#999999"></rect>
+
+<text x="600" y="672" text-anchor="middle" font-family="Arial" font-size="15">
+Custom exceptions make programs easier to debug because each error clearly describes what went wrong and how it should be handled.
+</text>
+
+</svg>

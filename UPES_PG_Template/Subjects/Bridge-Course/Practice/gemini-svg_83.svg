@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+
+<rect width="1200" height="720" fill="white"></rect>
+
+<!-- ================= TITLE ================= -->
+
+<text x="600" y="42" text-anchor="middle" font-family="Arial" font-size="30" font-weight="bold">
+Structured Data Parsing (ETL Pipeline)
+</text>
+
+<text x="600" y="70" text-anchor="middle" font-family="Arial" font-size="16">
+Raw text is extracted, converted into structured records, then queried for useful insights.
+</text>
+
+<!-- ================= STEP 1 ================= -->
+
+<rect x="40" y="110" width="300" height="520" fill="#EEF4FF" stroke="#3B82F6" stroke-width="2"></rect>
+
+<text x="190" y="145" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold">
+Step 1
+</text>
+
+<text x="190" y="175" text-anchor="middle" font-family="Arial" font-size="18">
+Raw File (city.txt)
+</text>
+
+<rect x="80" y="210" width="220" height="330" fill="white" stroke="black"></rect>
+
+<text x="100" y="245" font-family="Courier New" font-size="16">Dehradun 5.78 308.20</text>
+<text x="100" y="285" font-family="Courier New" font-size="16">Delhi 190.00 1484.00</text>
+<text x="100" y="325" font-family="Courier New" font-size="16">Mumbai 124.00 603.40</text>
+
+<text x="190" y="585" text-anchor="middle" font-family="Arial" font-size="15">
+One line = One record
+</text>
+
+<!-- Arrow -->
+
+<line x1="340" y1="370" x2="430" y2="370" stroke="black" stroke-width="2"></line>
+
+<!-- ================= STEP 2 ================= -->
+
+<rect x="430" y="110" width="340" height="520" fill="#FFF8DC" stroke="#C89B00" stroke-width="2"></rect>
+
+<text x="600" y="145" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold">
+Step 2
+</text>
+
+<text x="600" y="175" text-anchor="middle" font-family="Arial" font-size="18">
+Split &amp; Convert
+</text>
+
+<rect x="470" y="220" width="260" height="180" fill="white" stroke="black"></rect>
+
+<text x="490" y="255" font-family="Courier New" font-size="16">
+line.split()
+</text>
+
+<text x="490" y="295" font-family="Courier New" font-size="16">
+["Delhi",
+</text>
+
+<text x="520" y="325" font-family="Courier New" font-size="16">
+"190.00",
+</text>
+
+<text x="520" y="355" font-family="Courier New" font-size="16">
+"1484.00"]
+</text>
+
+<text x="490" y="430" font-family="Arial" font-size="17">
+Convert strings:
+</text>
+
+<text x="490" y="460" font-family="Courier New" font-size="16">
+float("190.00") → 190.0
+</text>
+
+<text x="490" y="490" font-family="Courier New" font-size="16">
+float("1484.00") → 1484.0
+</text>
+
+<!-- Arrow -->
+
+<line x1="770" y1="370" x2="860" y2="370" stroke="black" stroke-width="2"></line>
+
+<!-- ================= STEP 3 ================= -->
+
+<rect x="860" y="110" width="300" height="520" fill="#EEFDF3" stroke="#16A34A" stroke-width="2"></rect>
+
+<text x="1010" y="145" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold">
+Step 3
+</text>
+
+<text x="1010" y="175" text-anchor="middle" font-family="Arial" font-size="18">
+Structured Data
+</text>
+
+<rect x="900" y="210" width="220" height="150" fill="white" stroke="black"></rect>
+
+<text x="920" y="245" font-family="Courier New" font-size="16">(Delhi, 190.0, 1484.0)</text>
+<text x="920" y="280" font-family="Courier New" font-size="16">(Mumbai, 124.0, 603.4)</text>
+<text x="920" y="315" font-family="Courier New" font-size="16">(Dehradun, 5.78, 308.2)</text>
+
+<line x1="900" y1="390" x2="1120" y2="390" stroke="#CCCCCC"></line>
+
+<text x="920" y="430" font-family="Arial" font-size="17">
+Queries
+</text>
+
+<text x="920" y="465" font-family="Courier New" font-size="16">
+Population &gt; 10
+</text>
+
+<text x="920" y="495" font-family="Courier New" font-size="16">
+Total Area
+</text>
+
+<text x="920" y="555" font-family="Arial" font-size="16">
+Now the data behaves like
+</text>
+
+<text x="920" y="580" font-family="Arial" font-size="16">
+a small database.
+</text>
+
+<!-- ================= FOOTER ================= -->
+
+<rect x="70" y="660" width="1060" height="35" fill="#F3F4F6" stroke="#999999"></rect>
+
+<text x="600" y="682" text-anchor="middle" font-family="Arial" font-size="15">
+Extract → Split → Convert → Store → Query. This is the foundation of real-world data engineering pipelines.
+</text>
+
+</svg>

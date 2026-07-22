@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820">
+
+<rect width="1200" height="820" fill="white"></rect>
+
+<!-- ================= TITLE ================= -->
+
+<text x="600" y="42" text-anchor="middle" font-family="Arial" font-size="30" font-weight="bold">
+Types of Inheritance in Python
+</text>
+
+<text x="600" y="70" text-anchor="middle" font-family="Arial" font-size="17">
+A child class automatically inherits the methods and attributes of its parent class.
+</text>
+
+<!-- ========================================================== -->
+<!-- SINGLE INHERITANCE -->
+<!-- ========================================================== -->
+
+<rect x="40" y="110" width="340" height="610" fill="#EEF6FF" stroke="#2563EB" stroke-width="2"></rect>
+
+<text x="210" y="145" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold">
+1. Single Inheritance
+</text>
+
+<rect x="90" y="190" width="240" height="80" fill="white" stroke="black"></rect>
+
+<text x="210" y="225" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold">
+UniversityStudent
+</text>
+
+<text x="210" y="252" text-anchor="middle" font-family="Courier New" font-size="15">
+access_library()
+</text>
+
+<line x1="210" y1="270" x2="210" y2="340" stroke="black" stroke-width="2"></line>
+
+<polygon points="205,335 215,335 210,348" fill="black"></polygon>
+
+<rect x="90" y="350" width="240" height="120" fill="#E8FCEB" stroke="#16A34A"></rect>
+
+<text x="210" y="385" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold">
+DevOpsStudent
+</text>
+
+<text x="210" y="415" text-anchor="middle" font-family="Courier New" font-size="15">
+deploy_server()
+</text>
+
+<text x="210" y="445" text-anchor="middle" font-family="Arial" font-size="14">
+Also inherits:
+</text>
+
+<text x="210" y="465" text-anchor="middle" font-family="Courier New" font-size="15">
+access_library()
+</text>
+
+<!-- ========================================================== -->
+<!-- MULTILEVEL -->
+<!-- ========================================================== -->
+
+<rect x="430" y="110" width="340" height="610" fill="#FFF8E8" stroke="#D97706" stroke-width="2"></rect>
+
+<text x="600" y="145" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold">
+2. Multilevel Inheritance
+</text>
+
+<rect x="500" y="180" width="200" height="65" fill="white" stroke="black"></rect>
+
+<text x="600" y="218" text-anchor="middle" font-size="17" font-family="Arial">
+TechDevice
+</text>
+
+<line x1="600" y1="245" x2="600" y2="295" stroke="black" stroke-width="2"></line>
+
+<polygon points="595,290 605,290 600,303" fill="black"></polygon>
+
+<rect x="500" y="305" width="200" height="65" fill="white" stroke="black"></rect>
+
+<text x="600" y="343" text-anchor="middle" font-size="17" font-family="Arial">
+MacSystem
+</text>
+
+<line x1="600" y1="370" x2="600" y2="420" stroke="black" stroke-width="2"></line>
+
+<polygon points="595,415 605,415 600,428" fill="black"></polygon>
+
+<rect x="500" y="430" width="200" height="90" fill="#E8FCEB" stroke="#16A34A"></rect>
+
+<text x="600" y="465" text-anchor="middle" font-size="18" font-family="Arial" font-weight="bold">
+MacBookM5
+</text>
+
+<text x="600" y="495" text-anchor="middle" font-size="14" font-family="Arial">
+Gets methods from BOTH
+</text>
+
+<text x="600" y="515" text-anchor="middle" font-size="14" font-family="Courier New">
+power_on()
+</text>
+
+<text x="600" y="535" text-anchor="middle" font-size="14" font-family="Courier New">
+load_macos()
+</text>
+
+<!-- ========================================================== -->
+<!-- MULTIPLE -->
+<!-- ========================================================== -->
+
+<rect x="820" y="110" width="340" height="610" fill="#F4F4FF" stroke="#7C3AED" stroke-width="2"></rect>
+
+<text x="990" y="145" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold">
+3. Multiple Inheritance
+</text>
+
+<rect x="850" y="190" width="120" height="90" fill="white" stroke="black"></rect>
+
+<text x="910" y="225" text-anchor="middle" font-size="16" font-family="Arial">
+AIMLMajor
+</text>
+
+<text x="910" y="255" text-anchor="middle" font-size="13" font-family="Courier New">
+code_pipeline()
+</text>
+
+<rect x="1010" y="190" width="120" height="90" fill="white" stroke="black"></rect>
+
+<text x="1070" y="225" text-anchor="middle" font-size="16" font-family="Arial">
+FitnessAthlete
+</text>
+
+<text x="1070" y="255" text-anchor="middle" font-size="13" font-family="Courier New">
+lift_heavy()
+</text>
+
+<line x1="910" y1="280" x2="990" y2="360" stroke="black" stroke-width="2"></line>
+
+<line x1="1070" y1="280" x2="990" y2="360" stroke="black" stroke-width="2"></line>
+
+<rect x="860" y="370" width="260" height="150" fill="#E8FCEB" stroke="#16A34A"></rect>
+
+<text x="990" y="405" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold">
+ByteAndBarbell
+</text>
+
+<text x="990" y="440" text-anchor="middle" font-family="Courier New" font-size="14">
+code_pipeline()
+</text>
+
+<text x="990" y="465" text-anchor="middle" font-family="Courier New" font-size="14">
+lift_heavy()
+</text>
+
+<text x="990" y="490" text-anchor="middle" font-family="Courier New" font-size="14">
+create_content()
+</text>
+
+<!-- Footer -->
+
+<rect x="70" y="760" width="1060" height="34" fill="#F3F4F6" stroke="#999"></rect>
+
+<text x="600" y="782" text-anchor="middle" font-family="Arial" font-size="15">
+Single: One Parent • Multilevel: Grandparent → Parent → Child • Multiple: Child inherits from more than one parent.
+</text>
+
+</svg>
