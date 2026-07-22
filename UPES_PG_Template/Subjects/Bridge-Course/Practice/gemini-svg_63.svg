@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620">
+
+<rect width="1000" height="620" fill="white"></rect>
+
+<!-- Title -->
+<text x="500" y="40" text-anchor="middle" font-family="Arial" font-size="28" font-weight="bold">
+Finding the Runner-Up in One Pass (O(N))
+</text>
+
+<text x="500" y="68" text-anchor="middle" font-family="Arial" font-size="16">
+Instead of sorting the entire list, keep track of Gold and Silver while scanning once.
+</text>
+
+<!-- Input -->
+<rect x="70" y="95" width="860" height="70" fill="#EEF4FF" stroke="#4A6CF7" stroke-width="2"></rect>
+
+<text x="90" y="125" font-family="Arial" font-size="18" font-weight="bold">
+Scores
+</text>
+
+<text x="90" y="150" font-family="Courier New" font-size="20">
+[2, 3, 6, 6, 5]
+</text>
+
+<!-- Scan -->
+<line x1="500" y1="165" x2="500" y2="210" stroke="black" stroke-width="2"></line>
+
+<text x="520" y="195" font-family="Arial" font-size="18">
+Scan each score once
+</text>
+
+<!-- Timeline -->
+
+<rect x="60" y="220" width="880" height="230" fill="#FAFAFA" stroke="#BBBBBB"></rect>
+
+<!-- Header -->
+
+<text x="110" y="255" font-family="Arial" font-size="17" font-weight="bold">Current Score</text>
+<text x="360" y="255" font-family="Arial" font-size="17" font-weight="bold">Gold</text>
+<text x="610" y="255" font-family="Arial" font-size="17" font-weight="bold">Silver</text>
+
+<!-- Row 1 -->
+
+<text x="120" y="300" font-family="Courier New" font-size="20">2</text>
+<text x="360" y="300" font-family="Courier New" font-size="20">2</text>
+<text x="610" y="300" font-family="Courier New" font-size="20">-∞</text>
+
+<!-- Row 2 -->
+
+<text x="120" y="335" font-family="Courier New" font-size="20">3</text>
+<text x="360" y="335" font-family="Courier New" font-size="20">3</text>
+<text x="610" y="335" font-family="Courier New" font-size="20">2</text>
+
+<!-- Row 3 -->
+
+<text x="120" y="370" font-family="Courier New" font-size="20">6</text>
+<text x="360" y="370" font-family="Courier New" font-size="20">6</text>
+<text x="610" y="370" font-family="Courier New" font-size="20">3</text>
+
+<!-- Row 4 -->
+
+<text x="120" y="405" font-family="Courier New" font-size="20">6</text>
+<text x="360" y="405" font-family="Courier New" font-size="20">6</text>
+<text x="610" y="405" font-family="Courier New" font-size="20">3</text>
+
+<!-- Row 5 -->
+
+<text x="120" y="440" font-family="Courier New" font-size="20">5</text>
+<text x="360" y="440" font-family="Courier New" font-size="20">6</text>
+<text x="610" y="440" font-family="Courier New" font-size="20">5</text>
+
+<!-- Medals -->
+
+<rect x="120" y="485" width="760" height="70" fill="#FFFBEA" stroke="#D6B400"></rect>
+
+<text x="500" y="515" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold">
+Final Result
+</text>
+
+<text x="500" y="545" text-anchor="middle" font-family="Courier New" font-size="20">
+Gold = 6        Silver = 5
+</text>
+
+<!-- Footer -->
+
+<rect x="90" y="570" width="820" height="30" fill="#F5F5F5" stroke="#999999"></rect>
+
+<text x="500" y="590" text-anchor="middle" font-family="Arial" font-size="15">
+Only one scan through the list → O(N). No sorting required.
+</text>
+
+</svg>

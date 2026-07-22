@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620">
+
+<rect width="1000" height="620" fill="white"></rect>
+
+<text x="500" y="40" text-anchor="middle" font-family="Arial" font-size="30" font-weight="bold">
+List vs Tuple Memory
+</text>
+
+<text x="500" y="68" text-anchor="middle" font-family="Arial" font-size="16">
+Same data. Different container.
+</text>
+
+<!-- LIST -->
+
+<rect x="60" y="110" width="380" height="360" fill="#FFF5F5" stroke="#D62828" stroke-width="2"></rect>
+
+<text x="250" y="145" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold">
+Mutable List
+</text>
+
+<rect x="110" y="180" width="50" height="50" fill="#FFD166" stroke="black"></rect>
+<rect x="160" y="180" width="50" height="50" fill="#FFD166" stroke="black"></rect>
+<rect x="210" y="180" width="50" height="50" fill="#FFD166" stroke="black"></rect>
+<rect x="260" y="180" width="50" height="50" fill="#FFD166" stroke="black"></rect>
+<rect x="310" y="180" width="50" height="50" fill="#FFD166" stroke="black"></rect>
+
+<text x="135" y="212" text-anchor="middle" font-family="Courier New" font-size="18">1</text>
+<text x="185" y="212" text-anchor="middle" font-family="Courier New" font-size="18">2</text>
+<text x="235" y="212" text-anchor="middle" font-family="Courier New" font-size="18">3</text>
+<text x="285" y="212" text-anchor="middle" font-family="Courier New" font-size="18">4</text>
+<text x="335" y="212" text-anchor="middle" font-family="Courier New" font-size="18">5</text>
+
+<text x="250" y="285" text-anchor="middle" font-family="Courier New" font-size="17">
+[1, 2, 3, 4, 5]
+</text>
+
+<text x="250" y="330" text-anchor="middle" font-family="Arial" font-size="18">
+Can Add / Remove / Modify
+</text>
+
+<text x="250" y="380" text-anchor="middle" font-family="Arial" font-size="20" fill="#D62828">
+More Memory
+</text>
+
+<text x="250" y="415" text-anchor="middle" font-family="Courier New" font-size="18">
+sys.getsizeof(list)
+</text>
+
+<!-- TUPLE -->
+
+<rect x="560" y="110" width="380" height="360" fill="#F1FFF4" stroke="#2A9D8F" stroke-width="2"></rect>
+
+<text x="750" y="145" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold">
+Immutable Tuple
+</text>
+
+<rect x="610" y="180" width="50" height="50" fill="#90E0EF" stroke="black"></rect>
+<rect x="660" y="180" width="50" height="50" fill="#90E0EF" stroke="black"></rect>
+<rect x="710" y="180" width="50" height="50" fill="#90E0EF" stroke="black"></rect>
+<rect x="760" y="180" width="50" height="50" fill="#90E0EF" stroke="black"></rect>
+<rect x="810" y="180" width="50" height="50" fill="#90E0EF" stroke="black"></rect>
+
+<text x="635" y="212" text-anchor="middle" font-family="Courier New" font-size="18">1</text>
+<text x="685" y="212" text-anchor="middle" font-family="Courier New" font-size="18">2</text>
+<text x="735" y="212" text-anchor="middle" font-family="Courier New" font-size="18">3</text>
+<text x="785" y="212" text-anchor="middle" font-family="Courier New" font-size="18">4</text>
+<text x="835" y="212" text-anchor="middle" font-family="Courier New" font-size="18">5</text>
+
+<text x="750" y="285" text-anchor="middle" font-family="Courier New" font-size="17">
+(1, 2, 3, 4, 5)
+</text>
+
+<text x="750" y="330" text-anchor="middle" font-family="Arial" font-size="18">
+Cannot Change After Creation
+</text>
+
+<text x="750" y="380" text-anchor="middle" font-family="Arial" font-size="20" fill="#2A9D8F">
+Less Memory
+</text>
+
+<text x="750" y="415" text-anchor="middle" font-family="Courier New" font-size="18">
+sys.getsizeof(tuple)
+</text>
+
+<!-- Comparison -->
+
+<rect x="120" y="510" width="760" height="70" fill="#F5F5F5" stroke="#777"></rect>
+
+<text x="500" y="540" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold">
+Best Practice
+</text>
+
+<text x="500" y="565" text-anchor="middle" font-family="Arial" font-size="15">
+Use Lists for changing data. Use Tuples for fixed data because they use less memory and are safer.
+</text>
+
+</svg>

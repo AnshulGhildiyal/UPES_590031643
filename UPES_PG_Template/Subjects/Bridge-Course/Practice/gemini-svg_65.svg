@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620">
+
+<rect width="1100" height="620" fill="white"></rect>
+
+<!-- Title -->
+
+<text x="550" y="40" text-anchor="middle" font-family="Arial" font-size="30" font-weight="bold">
+List Comprehension: Querying JSON Data
+</text>
+
+<text x="550" y="68" text-anchor="middle" font-family="Arial" font-size="16">
+Filter records and build a new list in one readable expression.
+</text>
+
+<!-- Input -->
+
+<rect x="50" y="95" width="1000" height="160" fill="#EEF4FF" stroke="#4A6CF7" stroke-width="2"></rect>
+
+<text x="70" y="125" font-family="Arial" font-size="20" font-weight="bold">
+API Response (List of Dictionaries)
+</text>
+
+<!-- Movie Cards -->
+
+<rect x="80" y="150" width="180" height="80" fill="#FFFFFF" stroke="black"></rect>
+<text x="95" y="175" font-family="Courier New" font-size="14">Movie A</text>
+<text x="95" y="195" font-family="Courier New" font-size="14">Cost: 100</text>
+<text x="95" y="215" font-family="Courier New" font-size="14">Collection: 250</text>
+
+<rect x="310" y="150" width="180" height="80" fill="#FFFFFF" stroke="black"></rect>
+<text x="325" y="175" font-family="Courier New" font-size="14">Movie B</text>
+<text x="325" y="195" font-family="Courier New" font-size="14">Cost: 200</text>
+<text x="325" y="215" font-family="Courier New" font-size="14">Collection: 180</text>
+
+<rect x="540" y="150" width="180" height="80" fill="#FFFFFF" stroke="black"></rect>
+<text x="555" y="175" font-family="Courier New" font-size="14">Movie C</text>
+<text x="555" y="195" font-family="Courier New" font-size="14">Cost: 80</text>
+<text x="555" y="215" font-family="Courier New" font-size="14">Collection: 120</text>
+
+<rect x="770" y="150" width="180" height="80" fill="#FFFFFF" stroke="black"></rect>
+<text x="785" y="175" font-family="Courier New" font-size="14">Movie D</text>
+<text x="785" y="195" font-family="Courier New" font-size="14">Cost: 150</text>
+<text x="785" y="215" font-family="Courier New" font-size="14">Collection: 500</text>
+
+<!-- Filter -->
+
+<line x1="550" y1="255" x2="550" y2="310" stroke="black" stroke-width="2"></line>
+
+<rect x="360" y="310" width="380" height="70" fill="#FFF8DC" stroke="black"></rect>
+
+<text x="550" y="340" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold">
+collection &gt; cost ?
+</text>
+
+<text x="550" y="365" text-anchor="middle" font-family="Arial" font-size="15">
+Keep only profitable movies
+</text>
+
+<!-- Result -->
+
+<line x1="550" y1="380" x2="550" y2="430" stroke="black" stroke-width="2"></line>
+
+<rect x="180" y="430" width="740" height="120" fill="#EAFBF0" stroke="#2E8B57" stroke-width="2"></rect>
+
+<text x="550" y="460" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold">
+Generated List
+</text>
+
+<text x="550" y="500" text-anchor="middle" font-family="Courier New" font-size="20">
+["Movie A", "Movie C", "Movie D"]
+</text>
+
+<text x="550" y="530" text-anchor="middle" font-family="Arial" font-size="15">
+Movie B was automatically excluded because it wasn't profitable.
+</text>
+
+<!-- Footer -->
+
+<rect x="90" y="570" width="920" height="30" fill="#F5F5F5" stroke="#888"></rect>
+
+<text x="550" y="590" text-anchor="middle" font-family="Arial" font-size="15">
+List comprehensions read JSON, filter records, and build a new list in a single pass.
+</text>
+
+</svg>
