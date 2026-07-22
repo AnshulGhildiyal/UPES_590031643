@@ -1,0 +1,16 @@
+<svg width="600" height="150" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="100" cy="50" r="20" fill="#0984e3"/>
+  <text x="100" y="55" fill="white" font-family="monospace" font-size="16" text-anchor="middle">A</text>
+  
+  <circle cx="100" cy="100" r="20" fill="#74b9ff"/>
+  <text x="100" y="105" fill="white" font-family="monospace" font-size="16" text-anchor="middle">a</text>
+  
+  <path d="M 130 50 L 220 70" stroke="#b2bec3" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M 130 100 L 220 80" stroke="#b2bec3" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <rect x="230" y="50" width="80" height="50" rx="10" fill="#2d3436"/>
+  <text x="270" y="70" fill="#00b894" font-family="sans-serif" font-weight="bold" font-size="14" text-anchor="middle">Key: 'A'</text>
+  <text x="270" y="90" fill="white" font-family="monospace" font-size="12" text-anchor="middle">Count = 2</text>
+  
+  <text x="420" y="80" fill="#636e72" font-family="sans-serif" font-style="italic" font-size="12">Neutralized into the same bucket</text>
+</svg>

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600">
+<rect width="1000" height="600" fill="white"/>
+
+<text x="500" y="38" text-anchor="middle" font-family="Arial" font-size="28" font-weight="bold">
+Set.intersection() vs &
+</text>
+
+<text x="500" y="64" text-anchor="middle" font-family="Arial" font-size="16">
+The operator '&' only works with Sets. The intersection() method accepts any iterable.
+</text>
+
+<!-- Left -->
+<rect x="50" y="100" width="400" height="390" fill="#fff7ed" stroke="#d97706" stroke-width="2"/>
+<text x="250" y="132" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold">Using &amp; Operator</text>
+
+<text x="70" y="175" font-family="Courier New" font-size="17">S1 &amp; list_of_colors</text>
+
+<ellipse cx="170" cy="270" rx="95" ry="80" fill="#dbeafe" stroke="#2563eb"/>
+<text x="170" y="235" text-anchor="middle" font-family="Arial" font-size="16">Set</text>
+<text x="170" y="260" text-anchor="middle" font-family="Courier New" font-size="15">Red</text>
+<text x="170" y="280" text-anchor="middle" font-family="Courier New" font-size="15">Yellow</text>
+<text x="170" y="300" text-anchor="middle" font-family="Courier New" font-size="15">Blue</text>
+
+<rect x="270" y="205" width="120" height="130" fill="#ede9fe" stroke="#7c3aed"/>
+<text x="330" y="230" text-anchor="middle" font-family="Arial" font-size="16">List</text>
+<text x="330" y="255" text-anchor="middle" font-family="Courier New" font-size="15">blue</text>
+<text x="330" y="275" text-anchor="middle" font-family="Courier New" font-size="15">purple</text>
+<text x="330" y="295" text-anchor="middle" font-family="Courier New" font-size="15">black</text>
+
+<text x="250" y="390" text-anchor="middle" font-family="Arial" font-size="20" fill="#b91c1c">TypeError</text>
+<text x="250" y="420" text-anchor="middle" font-family="Arial" font-size="16">Operator requires both operands to be Sets.</text>
+
+<!-- Right -->
+<rect x="550" y="100" width="400" height="390" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+<text x="750" y="132" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold">Using intersection()</text>
+
+<text x="570" y="175" font-family="Courier New" font-size="17">S1.intersection(list_of_colors)</text>
+
+<ellipse cx="670" cy="270" rx="95" ry="80" fill="#dbeafe" stroke="#2563eb"/>
+<text x="670" y="235" text-anchor="middle" font-family="Arial" font-size="16">Set</text>
+<text x="670" y="260" text-anchor="middle" font-family="Courier New" font-size="15">Red</text>
+<text x="670" y="280" text-anchor="middle" font-family="Courier New" font-size="15">Yellow</text>
+<text x="670" y="300" text-anchor="middle" font-family="Courier New" font-size="15">Blue</text>
+
+<rect x="770" y="205" width="120" height="130" fill="#ede9fe" stroke="#7c3aed"/>
+<text x="830" y="230" text-anchor="middle" font-family="Arial" font-size="16">List</text>
+<text x="830" y="255" text-anchor="middle" font-family="Courier New" font-size="15">blue</text>
+<text x="830" y="275" text-anchor="middle" font-family="Courier New" font-size="15">purple</text>
+<text x="830" y="295" text-anchor="middle" font-family="Courier New" font-size="15">black</text>
+
+<line x1="725" y1="270" x2="770" y2="270" stroke="#16a34a" stroke-width="2"/>
+
+<rect x="660" y="375" width="180" height="55" fill="#dcfce7" stroke="#16a34a"/>
+<text x="750" y="398" text-anchor="middle" font-family="Arial" font-size="16">Result</text>
+<text x="750" y="420" text-anchor="middle" font-family="Courier New" font-size="18">{'blue'}</text>
+
+<rect x="90" y="525" width="820" height="40" fill="#f3f4f6" stroke="#9ca3af"/>
+<text x="500" y="550" text-anchor="middle" font-family="Arial" font-size="15">
+Use '&' when both operands are Sets. Use intersection() when the second object may be a List, Tuple, or any iterable.
+</text>
+
+</svg>

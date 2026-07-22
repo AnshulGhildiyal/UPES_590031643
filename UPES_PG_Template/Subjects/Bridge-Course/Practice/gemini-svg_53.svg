@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620">
+<rect width="1100" height="620" fill="#0f172a"/>
+
+<text x="550" y="42" text-anchor="middle" font-family="Arial" font-size="30" font-weight="bold" fill="white">
+Cleaning Words with .strip()
+</text>
+<text x="550" y="70" text-anchor="middle" font-family="Arial" font-size="16" fill="#cbd5e1">
+split() separates the words • strip() removes punctuation from the edges
+</text>
+
+<!-- Sentence -->
+<rect x="60" y="100" width="980" height="70" rx="10" fill="#1f2937" stroke="#475569"/>
+<text x="80" y="142" font-family="Courier New" font-size="18" fill="#fde68a">
+"Are you sure about that? Playing basketball, is so much better!"
+</text>
+
+<!-- Flow -->
+<polygon points="510,185 590,185 590,170 640,210 590,250 590,235 510,235"
+fill="#22c55e"/>
+
+<text x="550" y="214" text-anchor="middle" fill="white" font-family="Arial" font-size="18">
+split()
+</text>
+
+<!-- Tokens -->
+<rect x="60" y="270" width="980" height="140" rx="10" fill="#111827" stroke="#475569"/>
+
+<text x="90" y="310" font-family="Courier New" font-size="18" fill="#93c5fd">"Are"</text>
+<text x="190" y="310" font-family="Courier New" font-size="18" fill="#93c5fd">"you"</text>
+<text x="290" y="310" font-family="Courier New" font-size="18" fill="#93c5fd">"sure"</text>
+<text x="420" y="310" font-family="Courier New" font-size="18" fill="#93c5fd">"that?"</text>
+<text x="560" y="310" font-family="Courier New" font-size="18" fill="#93c5fd">"basketball,"</text>
+<text x="770" y="310" font-family="Courier New" font-size="18" fill="#93c5fd">"better!"</text>
+
+<text x="550" y="360" text-anchor="middle" font-family="Arial" font-size="18" fill="#fbbf24">
+Notice the punctuation is still attached.
+</text>
+
+<!-- strip -->
+<polygon points="510,425 590,425 590,410 640,450 590,490 590,475 510,475"
+fill="#38bdf8"/>
+
+<text x="550" y="454" text-anchor="middle" fill="white" font-family="Arial" font-size="18">
+strip(string.punctuation)
+</text>
+
+<!-- Result -->
+<rect x="60" y="510" width="980" height="80" rx="10" fill="#14532d" stroke="#22c55e"/>
+
+<text x="90" y="555" font-family="Courier New" font-size="18" fill="white">
+Are   you   sure   that   basketball   better
+</text>
+
+<text x="780" y="555" font-family="Arial" font-size="16" fill="#dcfce7">
+✓ ?, ! and , removed
+</text>
+
+</svg>
