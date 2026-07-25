@@ -40,7 +40,7 @@ visualizes the result — using six of the ten required Python concepts working 
 
 ## 🎯 The Mini-Project: Campus OS Simulator
 
-> **Where:** [`/mini_project/Mini_Project_CampusOS.ipynb`](./mini_project/Mini_Project_CampusOS.ipynb)
+> **Where:** [`/mini_project/Mini_Project_CampusOS.ipynb`](UPES_PG_Template\Subjects\Bridge-Course\Practice\Mini_Project_CampusOS.ipynb)
 
 A 14-day semester simulation for a single character, **Ray**, where every day:
 
@@ -106,6 +106,8 @@ jupyter notebook
 <div align="center">
 
 *Built as part of the MCA (AI & ML) Python Programming Lab — UPES Dehradun, 2026*
+
+
 *Mentor: Vibhu Gautum*
 
 </div>
